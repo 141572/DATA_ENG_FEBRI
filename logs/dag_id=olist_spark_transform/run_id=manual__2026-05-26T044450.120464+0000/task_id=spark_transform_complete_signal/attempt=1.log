@@ -1,0 +1,17 @@
+[2026-05-26T04:44:53.877+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: olist_spark_transform.spark_transform_complete_signal manual__2026-05-26T04:44:50.120464+00:00 [queued]>
+[2026-05-26T04:44:53.886+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: olist_spark_transform.spark_transform_complete_signal manual__2026-05-26T04:44:50.120464+00:00 [queued]>
+[2026-05-26T04:44:53.887+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2026-05-26T04:44:53.916+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): spark_transform_complete_signal> on 2026-05-26 04:44:50.120464+00:00
+[2026-05-26T04:44:53.921+0000] {standard_task_runner.py:57} INFO - Started process 892 to run task
+[2026-05-26T04:44:53.924+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'olist_spark_transform', 'spark_transform_complete_signal', 'manual__2026-05-26T04:44:50.120464+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/spark_transform_dag.py', '--cfg-path', '/tmp/tmpnmqalh7g']
+[2026-05-26T04:44:53.927+0000] {standard_task_runner.py:85} INFO - Job 43: Subtask spark_transform_complete_signal
+[2026-05-26T04:44:53.984+0000] {task_command.py:415} INFO - Running <TaskInstance: olist_spark_transform.spark_transform_complete_signal manual__2026-05-26T04:44:50.120464+00:00 [running]> on host 5cf72765c701
+[2026-05-26T04:44:54.082+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='olist_spark_transform' AIRFLOW_CTX_TASK_ID='spark_transform_complete_signal' AIRFLOW_CTX_EXECUTION_DATE='2026-05-26T04:44:50.120464+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-26T04:44:50.120464+00:00'
+[2026-05-26T04:44:54.083+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-26T04:44:54.084+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "PySpark distributed execution instructions have been logged. Please check task logs and execute the spark-submit command on host terminal."']
+[2026-05-26T04:44:54.092+0000] {subprocess.py:86} INFO - Output:
+[2026-05-26T04:44:54.094+0000] {subprocess.py:93} INFO - PySpark distributed execution instructions have been logged. Please check task logs and execute the spark-submit command on host terminal.
+[2026-05-26T04:44:54.094+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-26T04:44:54.128+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=olist_spark_transform, task_id=spark_transform_complete_signal, execution_date=20260526T044450, start_date=20260526T044453, end_date=20260526T044454
+[2026-05-26T04:44:54.177+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-05-26T04:44:54.198+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

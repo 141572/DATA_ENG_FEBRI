@@ -1,0 +1,31 @@
+[2026-05-26T04:23:03.153+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: olist_data_ingestion.ingest_orders manual__2026-05-26T04:20:38.633901+00:00 [queued]>
+[2026-05-26T04:23:03.163+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: olist_data_ingestion.ingest_orders manual__2026-05-26T04:20:38.633901+00:00 [queued]>
+[2026-05-26T04:23:03.164+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2026-05-26T04:23:03.186+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): ingest_orders> on 2026-05-26 04:20:38.633901+00:00
+[2026-05-26T04:23:03.197+0000] {standard_task_runner.py:57} INFO - Started process 353 to run task
+[2026-05-26T04:23:03.201+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'olist_data_ingestion', 'ingest_orders', 'manual__2026-05-26T04:20:38.633901+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/ingest_data_dag.py', '--cfg-path', '/tmp/tmpvactdh6_']
+[2026-05-26T04:23:03.216+0000] {standard_task_runner.py:85} INFO - Job 34: Subtask ingest_orders
+[2026-05-26T04:23:03.278+0000] {task_command.py:415} INFO - Running <TaskInstance: olist_data_ingestion.ingest_orders manual__2026-05-26T04:20:38.633901+00:00 [running]> on host 5cf72765c701
+[2026-05-26T04:23:03.385+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='olist_data_ingestion' AIRFLOW_CTX_TASK_ID='ingest_orders' AIRFLOW_CTX_EXECUTION_DATE='2026-05-26T04:20:38.633901+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-26T04:20:38.633901+00:00'
+[2026-05-26T04:23:03.387+0000] {logging_mixin.py:151} INFO - Starting ingestion of olist_orders_dataset.csv into topic olist_orders...
+[2026-05-26T04:23:03.390+0000] {kafka_producer.py:40} INFO - Connecting to Kafka broker at kafka:29092...
+[2026-05-26T04:23:03.393+0000] {conn.py:400} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.21.0.5', 29092)]>: connecting to kafka:29092 [('172.21.0.5', 29092) IPv4]
+[2026-05-26T04:23:03.397+0000] {conn.py:622} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:29092 <checking_api_versions_recv> [IPv4 ('172.21.0.5', 29092)]>: Broker version identified as 2.6
+[2026-05-26T04:23:03.398+0000] {conn.py:461} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.21.0.5', 29092)]>: Connection complete.
+[2026-05-26T04:23:03.400+0000] {kafka_producer.py:54} INFO - Starting ingestion: [File: olist_orders_dataset.csv] -> [Topic: olist_orders]
+[2026-05-26T04:23:03.503+0000] {conn.py:400} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.21.0.5', 29092)]>: connecting to kafka:29092 [('172.21.0.5', 29092) IPv4]
+[2026-05-26T04:23:03.504+0000] {conn.py:461} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:29092 <connected> [IPv4 ('172.21.0.5', 29092)]>: Connection complete.
+[2026-05-26T04:23:03.505+0000] {conn.py:951} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.21.0.5', 29092)]>: Closing connection. 
+[2026-05-26T04:23:07.362+0000] {kafka_producer.py:76} INFO - Ingested 20000 records so far...
+[2026-05-26T04:23:11.418+0000] {kafka_producer.py:76} INFO - Ingested 40000 records so far...
+[2026-05-26T04:23:15.736+0000] {kafka_producer.py:76} INFO - Ingested 60000 records so far...
+[2026-05-26T04:23:20.088+0000] {kafka_producer.py:76} INFO - Ingested 80000 records so far...
+[2026-05-26T04:23:24.234+0000] {kafka_producer.py:79} INFO - Flushing producer batches to broker...
+[2026-05-26T04:23:24.235+0000] {kafka_producer.py:81} INFO - Ingestion completed successfully! Total records sent: 99441
+[2026-05-26T04:23:24.240+0000] {kafka.py:633} INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 9223372036.0 secs timeout.
+[2026-05-26T04:23:24.241+0000] {conn.py:951} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:29092 <connected> [IPv4 ('172.21.0.5', 29092)]>: Closing connection. 
+[2026-05-26T04:23:24.243+0000] {logging_mixin.py:151} INFO - Ingestion successful for olist_orders_dataset.csv!
+[2026-05-26T04:23:24.243+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-05-26T04:23:24.258+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=olist_data_ingestion, task_id=ingest_orders, execution_date=20260526T042038, start_date=20260526T042303, end_date=20260526T042324
+[2026-05-26T04:23:24.305+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-05-26T04:23:24.339+0000] {taskinstance.py:2776} INFO - 3 downstream tasks scheduled from follow-on schedule check

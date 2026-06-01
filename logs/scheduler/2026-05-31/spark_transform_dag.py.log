@@ -1,0 +1,313 @@
+[2026-05-31T11:05:12.195+0000] {processor.py:157} INFO - Started process (PID=180) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:05:12.196+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:05:12.197+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.197+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:05:12.259+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:05:12.599+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.599+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-05-31T11:05:12.611+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.611+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-05-31T11:05:12.619+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.619+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-05-31T11:05:12.620+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.619+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:olist_spark_transform' as access control is unset.
+[2026-05-31T11:05:12.620+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.620+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:05:12.631+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.631+0000] {dag.py:2937} INFO - Creating ORM DAG for olist_spark_transform
+[2026-05-31T11:05:12.633+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:12.632+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:05:12.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.468 seconds
+[2026-05-31T11:05:42.976+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:05:42.977+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:05:42.979+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:42.978+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:05:43.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:05:43.070+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:43.070+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:05:43.087+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:05:43.087+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:05:43.116+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.146 seconds
+[2026-05-31T11:06:13.588+0000] {processor.py:157} INFO - Started process (PID=210) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:06:13.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:06:13.589+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:06:13.589+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:06:13.620+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:06:13.791+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:06:13.790+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:06:13.808+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:06:13.808+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:06:13.847+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.263 seconds
+[2026-05-31T11:06:44.348+0000] {processor.py:157} INFO - Started process (PID=230) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:06:44.349+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:06:44.355+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:06:44.351+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:06:44.395+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:06:44.446+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:06:44.446+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:06:44.487+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:06:44.487+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:06:44.866+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.524 seconds
+[2026-05-31T11:07:15.351+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:07:15.353+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:07:15.355+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:07:15.354+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:07:15.391+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:07:15.433+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:07:15.433+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:07:15.607+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:07:15.606+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:07:15.630+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.286 seconds
+[2026-05-31T11:07:45.978+0000] {processor.py:157} INFO - Started process (PID=280) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:07:45.979+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:07:45.980+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:07:45.980+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:07:46.010+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:07:46.184+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:07:46.184+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:07:46.197+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:07:46.197+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:07:46.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.252 seconds
+[2026-05-31T11:08:16.692+0000] {processor.py:157} INFO - Started process (PID=302) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:08:16.694+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:08:16.697+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:08:16.696+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:08:16.733+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:08:16.784+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:08:16.784+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:08:16.808+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:08:16.807+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:08:16.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.157 seconds
+[2026-05-31T11:08:47.260+0000] {processor.py:157} INFO - Started process (PID=320) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:08:47.261+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:08:47.262+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:08:47.262+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:08:47.292+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:08:47.329+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:08:47.329+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:08:47.345+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:08:47.345+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:08:47.369+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.113 seconds
+[2026-05-31T11:09:17.798+0000] {processor.py:157} INFO - Started process (PID=352) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:09:17.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:09:17.801+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:09:17.800+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:09:17.831+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:09:17.871+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:09:17.871+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:09:17.888+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:09:17.887+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:09:17.912+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.118 seconds
+[2026-05-31T11:09:48.450+0000] {processor.py:157} INFO - Started process (PID=367) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:09:48.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:09:48.453+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:09:48.453+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:09:48.486+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:09:48.529+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:09:48.529+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:09:48.546+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:09:48.546+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:09:48.572+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.125 seconds
+[2026-05-31T11:10:19.129+0000] {processor.py:157} INFO - Started process (PID=388) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:10:19.130+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:10:19.132+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:10:19.131+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:10:19.168+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:10:19.211+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:10:19.211+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:10:19.226+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:10:19.226+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:10:19.251+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.128 seconds
+[2026-05-31T11:10:49.771+0000] {processor.py:157} INFO - Started process (PID=403) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:10:49.772+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:10:49.775+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:10:49.774+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:10:49.820+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:10:49.867+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:10:49.866+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:10:49.882+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:10:49.882+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:10:49.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.142 seconds
+[2026-05-31T11:11:20.400+0000] {processor.py:157} INFO - Started process (PID=418) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:11:20.402+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:11:20.405+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:11:20.404+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:11:20.448+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:11:20.484+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:11:20.484+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:11:20.500+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:11:20.500+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:11:20.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.131 seconds
+[2026-05-31T11:11:50.965+0000] {processor.py:157} INFO - Started process (PID=433) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:11:50.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:11:50.967+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:11:50.967+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:11:50.996+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:11:51.035+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:11:51.034+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:11:51.051+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:11:51.050+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:11:51.075+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.114 seconds
+[2026-05-31T11:12:21.590+0000] {processor.py:157} INFO - Started process (PID=454) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:12:21.591+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:12:21.593+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:12:21.592+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:12:21.623+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:12:21.668+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:12:21.668+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:12:21.683+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:12:21.683+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:12:21.711+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.126 seconds
+[2026-05-31T11:12:52.262+0000] {processor.py:157} INFO - Started process (PID=475) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:12:52.264+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:12:52.265+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:12:52.265+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:12:52.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:12:52.358+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:12:52.358+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:12:52.376+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:12:52.376+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:12:52.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.145 seconds
+[2026-05-31T11:13:22.946+0000] {processor.py:157} INFO - Started process (PID=490) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:13:22.947+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:13:22.949+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:13:22.949+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:13:22.992+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:13:23.029+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:13:23.029+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:13:23.044+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:13:23.044+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:13:23.069+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.130 seconds
+[2026-05-31T11:13:53.592+0000] {processor.py:157} INFO - Started process (PID=505) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:13:53.593+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:13:53.594+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:13:53.594+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:13:53.628+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:13:53.668+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:13:53.668+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:13:53.684+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:13:53.684+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:13:53.712+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.126 seconds
+[2026-05-31T11:14:24.197+0000] {processor.py:157} INFO - Started process (PID=526) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:14:24.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:14:24.199+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:14:24.198+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:14:24.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:14:24.273+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:14:24.273+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:14:24.290+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:14:24.290+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:14:24.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.122 seconds
+[2026-05-31T11:14:54.739+0000] {processor.py:157} INFO - Started process (PID=541) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:14:54.740+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:14:54.742+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:14:54.741+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:14:54.774+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:14:54.822+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:14:54.821+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:14:54.841+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:14:54.841+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:14:54.899+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.164 seconds
+[2026-05-31T11:15:25.396+0000] {processor.py:157} INFO - Started process (PID=563) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:15:25.397+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:15:25.398+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:15:25.398+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:15:25.437+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:15:25.483+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:15:25.482+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:15:25.500+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:15:25.499+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:15:25.528+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.138 seconds
+[2026-05-31T11:15:56.043+0000] {processor.py:157} INFO - Started process (PID=579) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:15:56.044+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:15:56.047+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:15:56.047+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:15:56.082+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:15:56.124+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:15:56.123+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:15:56.140+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:15:56.140+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:15:56.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.132 seconds
+[2026-05-31T11:16:26.699+0000] {processor.py:157} INFO - Started process (PID=596) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:16:26.701+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:16:26.702+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:16:26.702+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:16:26.754+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:16:26.833+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:16:26.832+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:16:26.857+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:16:26.857+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:16:26.884+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.193 seconds
+[2026-05-31T11:16:57.333+0000] {processor.py:157} INFO - Started process (PID=611) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:16:57.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:16:57.335+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:16:57.335+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:16:57.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:16:57.410+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:16:57.410+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:16:57.429+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:16:57.429+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:16:57.456+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.128 seconds
+[2026-05-31T11:17:27.938+0000] {processor.py:157} INFO - Started process (PID=626) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:17:27.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:17:27.940+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:17:27.940+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:17:27.972+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:17:28.013+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:17:28.013+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:17:28.031+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:17:28.031+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:17:28.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.124 seconds
+[2026-05-31T11:17:58.527+0000] {processor.py:157} INFO - Started process (PID=648) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:17:58.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:17:58.530+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:17:58.529+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:17:58.568+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:17:58.625+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:17:58.624+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:17:58.643+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:17:58.643+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:17:58.670+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.147 seconds
+[2026-05-31T11:18:29.223+0000] {processor.py:157} INFO - Started process (PID=663) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:18:29.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:18:29.227+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:18:29.226+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:18:29.260+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:18:29.317+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:18:29.317+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:18:29.337+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:18:29.337+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:18:29.377+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.159 seconds
+[2026-05-31T11:18:59.874+0000] {processor.py:157} INFO - Started process (PID=678) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:18:59.875+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:18:59.876+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:18:59.876+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:18:59.907+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:18:59.957+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:18:59.957+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:18:59.974+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:18:59.974+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:19:00.003+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.134 seconds
+[2026-05-31T11:19:30.500+0000] {processor.py:157} INFO - Started process (PID=693) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:19:30.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:19:30.503+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:19:30.502+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:19:30.537+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:19:30.582+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:19:30.582+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:19:30.599+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:19:30.599+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:19:30.625+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.129 seconds
+[2026-05-31T11:20:01.135+0000] {processor.py:157} INFO - Started process (PID=708) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:20:01.136+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:20:01.137+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:20:01.137+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:20:01.164+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:20:01.203+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:20:01.203+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:20:01.220+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:20:01.220+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:20:01.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.115 seconds
+[2026-05-31T11:20:31.757+0000] {processor.py:157} INFO - Started process (PID=723) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:20:31.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:20:31.760+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:20:31.759+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:20:31.790+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:20:31.830+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:20:31.830+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:20:31.849+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:20:31.849+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:20:31.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.126 seconds
+[2026-05-31T11:21:02.379+0000] {processor.py:157} INFO - Started process (PID=738) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:21:02.381+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:21:02.384+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:21:02.383+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:21:02.447+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:21:02.503+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:21:02.502+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:21:02.519+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:21:02.519+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:21:02.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.173 seconds
+[2026-05-31T11:21:33.029+0000] {processor.py:157} INFO - Started process (PID=753) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:21:33.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:21:33.032+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:21:33.031+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:21:33.063+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:21:33.103+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:21:33.103+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:21:33.119+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:21:33.119+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:21:33.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.121 seconds
+[2026-05-31T11:22:03.718+0000] {processor.py:157} INFO - Started process (PID=768) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:22:03.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:22:03.721+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:22:03.720+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:22:03.751+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:22:03.786+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:22:03.786+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:22:03.801+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:22:03.801+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:22:03.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.113 seconds
+[2026-05-31T11:22:34.328+0000] {processor.py:157} INFO - Started process (PID=783) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:22:34.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:22:34.333+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:22:34.332+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:22:34.375+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:22:34.424+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:22:34.424+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:22:34.447+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:22:34.447+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:22:34.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.156 seconds
+[2026-05-31T11:23:05.032+0000] {processor.py:157} INFO - Started process (PID=798) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:23:05.033+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:23:05.035+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:23:05.034+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:23:05.073+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:23:05.118+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:23:05.118+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:23:05.135+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:23:05.135+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:23:05.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.130 seconds
+[2026-05-31T11:23:35.686+0000] {processor.py:157} INFO - Started process (PID=813) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:23:35.687+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:23:35.689+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:23:35.688+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:23:35.719+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:23:35.768+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:23:35.768+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:23:35.783+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:23:35.783+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:23:35.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.126 seconds
+[2026-05-31T11:24:06.231+0000] {processor.py:157} INFO - Started process (PID=828) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:24:06.232+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:24:06.233+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:24:06.233+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:24:06.267+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:24:06.309+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:24:06.309+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:24:06.325+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:24:06.325+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:24:06.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.122 seconds
+[2026-05-31T11:24:36.855+0000] {processor.py:157} INFO - Started process (PID=843) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:24:36.856+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:24:36.857+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:24:36.857+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:24:36.882+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:24:36.924+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:24:36.923+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:24:36.940+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:24:36.940+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:24:36.965+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.115 seconds
+[2026-05-31T11:25:07.486+0000] {processor.py:157} INFO - Started process (PID=858) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:25:07.488+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:25:07.492+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:25:07.490+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:25:07.533+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:25:07.576+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:25:07.575+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:25:07.593+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:25:07.593+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:25:07.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.142 seconds
+[2026-05-31T11:25:38.301+0000] {processor.py:157} INFO - Started process (PID=873) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:25:38.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:25:38.303+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:25:38.303+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:25:38.354+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:25:38.390+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:25:38.390+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:25:38.406+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:25:38.406+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:25:38.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.134 seconds
+[2026-05-31T11:26:08.914+0000] {processor.py:157} INFO - Started process (PID=888) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:26:08.916+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:26:08.918+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:26:08.917+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:26:08.965+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:26:09.002+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:26:09.002+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:26:09.018+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:26:09.018+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:26:09.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.137 seconds
+[2026-05-31T11:26:39.559+0000] {processor.py:157} INFO - Started process (PID=903) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:26:39.561+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:26:39.563+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:26:39.562+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:26:39.602+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:26:39.639+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:26:39.639+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:26:39.655+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:26:39.655+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:26:39.679+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.126 seconds
+[2026-05-31T11:27:10.181+0000] {processor.py:157} INFO - Started process (PID=918) to work on /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:27:10.182+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_transform_dag.py for tasks to queue
+[2026-05-31T11:27:10.185+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:27:10.184+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:27:10.223+0000] {processor.py:839} INFO - DAG(s) dict_keys(['olist_spark_transform']) retrieved from /opt/airflow/dags/spark_transform_dag.py
+[2026-05-31T11:27:10.265+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:27:10.264+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-05-31T11:27:10.280+0000] {logging_mixin.py:151} INFO - [2026-05-31T11:27:10.280+0000] {dag.py:3696} INFO - Setting next_dagrun for olist_spark_transform to None, run_after=None
+[2026-05-31T11:27:10.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_transform_dag.py took 0.132 seconds
